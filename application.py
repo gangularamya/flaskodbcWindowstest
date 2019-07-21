@@ -9,8 +9,8 @@ password='Password1'
 
 app = Flask(__name__)
 
-# conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
-# cursor=conn.cursor()
+conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+cursor=conn.cursor()
 
 @app.route("/")
 def hello():
