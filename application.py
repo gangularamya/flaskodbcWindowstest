@@ -17,7 +17,7 @@ def hello():
     SQLCommand = ("INSERT INTO dbo.employee "
                  "(name, age, place) "
                  "VALUES (?,?,?)")
-    Values = ['test','1','us']
+    Values = ['a','1','a']
     cursor.execute(SQLCommand,Values)
     conn.commit()
     return "Hello World!"    
