@@ -5,7 +5,7 @@ import time
 server='pythonsqltest.database.windows.net'
 database='pythonsqltest'
 username='username@pythonsqltest'
-password='Password1'
+password='xxxxxx'
 
 app = Flask(__name__)
 
